@@ -1,0 +1,35 @@
+{
+  "name": "012_1_ahj_polling_backend",
+  "version": "1.0.0",
+  "description": "HW polling",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "forever server.js",
+    "watch": "forever -w server.js",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/SirPen9uin/ahj_polling_backend.git"
+  },
+  "author": "SirPen9uin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SirPen9uin/ahj_polling_backend/issues"
+  },
+  "homepage": "https://github.com/SirPen9uin/ahj_polling_backend#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.8.0",
+    "@faker-js/faker": "^8.4.1",
+    "@stylistic/eslint-plugin": "^2.6.1",
+    "eslint": "^9.8.0",
+    "globals": "^15.9.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "forever": "^4.0.3"
+  }
+}
