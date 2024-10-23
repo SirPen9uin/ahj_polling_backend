@@ -2,7 +2,7 @@
   "name": "012_1_ahj_polling_backend",
   "version": "1.0.0",
   "description": "HW polling",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "prestart": "npm install",
     "start": "forever server.js",
